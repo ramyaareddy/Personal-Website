@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Lakshmi Devi Sri Ramya Abbireddy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lakshmi Devi Sri Ramya Abbireddy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <section id="profile">
+      
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lakshmi Devi Sri Ramya Abbireddy</h1>
+        <p class="section__text__p2">IT Management Specialist <br>SAP Tools Expert</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume-Ramya.docx')" 
+          >
+            Download CV
+          </button>
+          <!-- <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button> -->
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon linkedin"
+            onclick="location.href='https://www.linkedin.com/in/monish-teja-kolli-ba717623a'"
+          />
+        </div>
+        <!-- <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/monish-teja-kolli-ba717623a'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div> -->
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/security.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p> Internships <br />ACME GRADE - Artificial intelligence Intern <br>•	Developed and implemented machine learning models to solve real-world problems, improving prediction accuracy by 15%.<br>
+                •	Collaborated with data scientists and engineers to preprocess large datasets, enhancing data quality and model performance.
+                 </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.tech Computer Science and Engineering <br/>(GITAM Deemed to be University)<br/><br/>M.Sc. Masters Degree in Information Technology and Management <br/>(University of Wisconsin Milwaukee)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Driven and detail-oriented professional with a solid foundation in Computer Science, Information Technology, and 
+              Project Management. Experienced in developing scalable and innovative solutions with a focus on artificial intelligence, 
+              data analysis, and SAP tools. Adept at using various programming languages and technologies to enhance data quality, 
+              streamline processes, and deliver impactful results. Strong problem-solving skills, coupled with a collaborative 
+              mindset, enable effective teamwork and project execution. Highly motivated to contribute to complex projects and 
+              continuously expand technical expertise.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technical Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SAP Tools (SAP 4HANA/ABAP)</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Eclipse IDE </h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article><br/>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dimensional modelling </h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article><br/>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Orange Miniconda</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+ 
+          <div class="details-container">
+            <h2 class="experience-sub-title">Engineering Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Information technology management</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software development methologies</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Software testing methologies</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Engineering Economics and management</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Project Management</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Agile Methodologies</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Project Planning & Execution</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Risk Mitigation techniques</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Resource Allocation</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Process Optimization</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">SAP Sales and Distribution Module</h2>
+            <p>Finished a comprehensive SAP S/4HANA task, utilizing Global Bike data to concentrate on the Sales and 
+              Distribution (SD) module. obtained practical experience setting up organizational units, sales processes, and 
+              master data in S/4HANA. created specialized ABAP applications to guarantee precise data processing and improve 
+              the performance of sales processes, especially in material and customer management. examined how SAP S/4HANA's 
+              integration and real-time processing capabilities may be used to streamline sales and distribution processes 
+              and raise overall productivity.</p>
+            
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Tableau Data Analysis</h2>
+            <p>Conducted a comprehensive data analysis using Tableau, focusing on sales trends across various 
+              product categories and states. Identified key insights, such as the top states for copier sales 
+              and the peak sales month for office supplies. Analyzed and visualized sales data, uncovering trends 
+              and anomalies, and provided actionable recommendations to improve profit margins in specific subcategories. 
+              Created interactive dashboards to present findings, facilitating data-driven decision-making for management.</p>
+            
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Car Rental Dimensional Modelling</h2>
+            <p>Developed a comprehensive dimensional model for a car rental solution, focusing on optimizing data structure 
+              and performance for analytical purposes. Designed and implemented fact and dimension tables to capture key 
+              metrics such as rental transactions, customer data, car types, locations, and promotions. The schema supports 
+              efficient querying and reporting on sales trends, customer preferences, and operational performance. Applied best 
+              practices in dimensional modeling to ensure data integrity, scalability, and ease of use for business intelligence 
+              and decision-making processes.</p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">E-Commers Website Design and Developement</h2>
+            <p>I built an e-commerce website from scratch, taking a full-stack approach to development. 
+              The project involved creating a responsive E-Commers website. It included customer support and vendor support features, 
+              managing the product catalog, and facilitating the seller selection process. I also integrated a secure payment gateway and 
+              ensured the website's security through input validation, data encryption, and best practices, providing a user-friendly and 
+              secure platform.</p>
+            
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Risk Mitigation Planning and Reporting</h2>
+            <p>The task was to explores the crucial procedures of risk planning and reporting, underscoring their 
+              significance in upholding a proactive approach towards uncertainties. Identifying possible risks, evaluating 
+              their impact and likelihood, and creating management or mitigation plans are all part of risk planning. However, 
+              risk reporting makes sure that all parties involved are aware of and in agreement by methodically recording and 
+              communicating risks that have been identified, their assessments, and the mitigation strategies that have been put in place.</p>
+            
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Home Automation</h2>
+            <p>Engineered a home automation system using Arduino, enabling remote control of household appliances through a mobile phone. The application provide 
+              enhanced control, automation, and management of various household systems and devices through a centralized network. 
+              These systems can improve convenience, security and energy efficiency.</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:ramyareddy2327@gmail.com">ramyareddy2327@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/monish-teja-kolli-ba717623a" target="_blank">LinkedIn - Ramya Reddy</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
